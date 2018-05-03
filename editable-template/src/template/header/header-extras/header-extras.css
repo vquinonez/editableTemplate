@@ -1,0 +1,27 @@
+.extras {
+    display: flex;
+    align-items: center;
+}
+
+.extras ul {
+    display: inline;
+
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.extras ul li {
+    display: inline;
+}
+
+.extras ul li a {
+    color: black;
+    text-decoration: none;
+
+    padding: 20px;
+}
+
+.extras ul li a:hover {
+    color: rgb(102, 102, 102);
+}
