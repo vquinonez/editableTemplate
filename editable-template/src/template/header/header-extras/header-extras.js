@@ -9,8 +9,8 @@ function HeaderExtras () {
         {herf: '#', label: 'Item4'},
     ], extraElements = [];
 
-    extras.forEach(extra => {
-        extraElements.push(<li><a href={extra.herf}>{extra.label}</a></li>)
+    extras.forEach((extra, index) => {
+        extraElements.push(<li key={index}><a href={extra.herf}>{extra.label}</a></li>)
     })
 
     return (

@@ -1,0 +1,35 @@
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+
+    color: black;
+
+    min-height: 350px;
+
+    background: #7a00ff;
+    background: -moz-linear-gradient(left, #7a00ff 0%, #7db9e8 100%);
+    background: -webkit-linear-gradient(left, #7a00ff 0%,#7db9e8 100%);
+    background: linear-gradient(to right, #7a00ff 0%,#7db9e8 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7a00ff', endColorstr='#7db9e8',GradientType=1 );
+}
+
+.hero.white-txt {
+    color: white;
+}
+
+h1, h2, h3, h4 {
+    margin: 0;
+}
+
+.hero h1 {
+    font-size: 2rem;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.hero h2 {
+    font-size: 1.3rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
