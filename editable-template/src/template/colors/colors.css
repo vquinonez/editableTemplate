@@ -1,0 +1,24 @@
+.color-container {
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.color-container .color {
+    display: flex;
+    align-items: flex-end;
+
+    min-height: 200px;
+    border-radius: 5px;
+
+    overflow: hidden;
+
+    -webkit-box-shadow: 0px 0px 10px 0px #b8b8b8;
+    -moz-box-shadow: 0px 0px 10px 0px #b8b8b8;
+    box-shadow: 0px 0px 10px 0px #b8b8b8;
+}
+
+.color-container .color footer {
+    width: 100%;
+    text-align: center;
+    background: white;
+}

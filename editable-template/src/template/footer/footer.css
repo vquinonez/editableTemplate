@@ -1,12 +1,15 @@
-.hero {
+footer {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-flow: column;
 
-    color: black;
+    width: 100%;
 
-    min-height: 350px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+    color: black;
 
     background: #7a00ff;
     background: -moz-linear-gradient(left, #7a00ff 0%, #7db9e8 100%);
@@ -15,17 +18,6 @@
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7a00ff', endColorstr='#7db9e8',GradientType=1 );
 }
 
-.hero.white-txt {
+footer.white-txt {
     color: white;
-}
-
-.hero h1 {
-    font-size: 2rem;
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
-.hero h2 {
-    font-size: 1.3rem;
-    margin-top: 10px;
-    margin-bottom: 10px;
 }
