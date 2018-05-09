@@ -1,0 +1,25 @@
+.form-container.color label{
+    display: block;
+}
+
+.form-container.color .color-form {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+.form-container.color .color-form input{
+    display: inline-block;    
+}
+
+.form-container.color .color-form .placeholder{
+    flex-grow: 1;
+
+    margin-left: 10px;
+
+    width: 100%;    
+
+    border: 1px solid #aaa;
+    border-radius: 5px; 
+    
+}

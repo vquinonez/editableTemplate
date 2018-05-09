@@ -1,0 +1,16 @@
+.form-container label{
+    display: inline;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.form-container input{
+    display: inline;
+    width: 100%;
+    height: 1.4rem;
+    margin-top: 10px;
+
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}

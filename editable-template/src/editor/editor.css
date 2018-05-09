@@ -1,0 +1,21 @@
+.editor {
+    position: fixed;
+
+    width: 100vw;
+    height: 100vh;
+
+    top: 0;
+    left: 0;
+
+    transition: left 0.5s;
+
+    background: white;
+
+    z-index: 3;
+}
+
+.editor.hide{
+    left: 100vw;
+
+    transition: left 0.5s;
+}

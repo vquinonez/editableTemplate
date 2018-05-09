@@ -1,0 +1,19 @@
+.toggle-editor {
+    background-color: #4fa682;
+    color: white;
+
+    max-width: 200px;
+
+    position: absolute;
+    top: calc(50% - 100px);
+    left: -140px;
+
+    transform-origin: 50% 50%;
+    transform: rotate(-90deg);
+
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+
+    -webkit-box-shadow: 0px 0px 10px 0px #272727;
+    box-shadow: 0px 0px 10px 0px #272727;
+}

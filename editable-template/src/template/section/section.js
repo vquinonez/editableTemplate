@@ -7,7 +7,9 @@ function Section ( {title, children, className} ) {
         <header>
             <h1>{title}</h1>
         </header>
-        {children}
+        <div className="content body-section">
+          {children}
+        </div>
     </section>
   );
 }

@@ -9,10 +9,13 @@ import Section from './template/section/section';
 import Color from './template/colors/colors';
 import Button from './template/button/button';
 
+import Editor from './editor/editor';
+
 class App extends Component {
   render() {
     return (
       <div>
+        <Editor></Editor>
         <Header></Header>
         <section className="container-app">
           <Hero>

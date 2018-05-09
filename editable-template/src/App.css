@@ -33,19 +33,30 @@ div, p, a {
   margin-bottom: 20px;
 }
 
-.container-app .body-section {
+.body-section {
+  display: flex;
+
   max-width: 1024px;
   margin: auto;
   padding-top: 20px;
+
+  flex-flow: row wrap;
+}
+
+.body-section > * {
+  flex: 1 100%;
 }
 
 .half {
-  display: inline-block;
-  width: 50%;
-  box-sizing: border-box;  
+  /* width: 50%;
+  box-sizing: border-box; */
+
+  flex: 1 50%;
 }
 
 .quarter {
+  flex: 1 25%;
+  
   display: inline-block;
   width: 25%;
   box-sizing: border-box;  
